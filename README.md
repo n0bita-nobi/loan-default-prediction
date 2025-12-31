@@ -59,8 +59,8 @@ Instead of relying on heavy feature engineering or complex models, the emphasis 
 loan-default-prediction/
 │
 ├── app/
-│   └── app.py                     # Streamlit application
-│   └── app(only for streamlit).py
+│ └── app.py # Streamlit application
+│
 ├── model/
 │   └── model.h5                   # Trained ANN model
 │
@@ -75,7 +75,7 @@ loan-default-prediction/
 │   └── loanpurpose_encoder.pkl
 │
 ├── Dataset/
-│   └── Loan_default.csv           # Original dataset
+│ └── Loan_default.csv # Original dataset
 │
 ├── Notebooks/
 │   └── Loan Default Prediction.ipynb
