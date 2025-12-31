@@ -54,6 +54,7 @@ Instead of relying on heavy feature engineering or complex models, the emphasis 
 ---
 
 ## Project Structure
+
 ```text
 loan-default-prediction/
 │
@@ -81,7 +82,7 @@ loan-default-prediction/
 │
 ├── requirements.txt
 └── README.md
-
+```
 
 ---
 
@@ -102,7 +103,7 @@ The UI is intentionally minimal to keep focus on clarity and usability.
 The application is deployed using **Streamlit Community Cloud** directly from this GitHub repository.
 
 **Main entry file**:
-app/app.py
+`app/app.py`
 
 All model artifacts and encoders are loaded at runtime to ensure consistency with training.
 
@@ -114,5 +115,4 @@ All model artifacts and encoders are loaded at runtime to ensure consistency wit
 pip install -r requirements.txt
 cd app
 streamlit run app.py
-
-
+```
