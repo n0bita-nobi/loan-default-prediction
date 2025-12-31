@@ -61,6 +61,7 @@ loan-default-prediction/
 ├── app/
 │   └── app.py                     # Streamlit application
 │
+│   └── app(only for streamlit).py
 ├── model/
 │   └── model.h5                   # Trained ANN model
 │
