@@ -54,6 +54,7 @@ Instead of relying on heavy feature engineering or complex models, the emphasis 
 ---
 
 ## Project Structure
+```text
 loan-default-prediction/
 │
 ├── app/
@@ -80,7 +81,6 @@ loan-default-prediction/
 │
 ├── requirements.txt
 └── README.md
-
 
 
 ---
