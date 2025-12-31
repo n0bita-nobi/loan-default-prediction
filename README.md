@@ -54,34 +54,32 @@ Instead of relying on heavy feature engineering or complex models, the emphasis 
 ---
 
 ## Project Structure
-{content: }
 loan-default-prediction/
 │
 ├── app/
-│ └── app.py # Streamlit application
+│   └── app.py                     # Streamlit application
 │
 ├── model/
-│ └── model.h5 # Trained ANN model
+│   └── model.h5                   # Trained ANN model
 │
 ├── pickle/
-│ ├── scaler.pkl
-│ ├── education_encoder.pkl
-│ ├── HasMortgage_encoder.pkl
-│ ├── HasDependents_encoder.pkl
-│ ├── HasCoSigner_encoder.pkl
-│ ├── employment_encoder.pkl
-│ ├── marital_encoder.pkl
-│ └── loanpurpose_encoder.pkl
+│   ├── scaler.pkl
+│   ├── education_encoder.pkl
+│   ├── HasMortgage_encoder.pkl
+│   ├── HasDependents_encoder.pkl
+│   ├── HasCoSigner_encoder.pkl
+│   ├── employment_encoder.pkl
+│   ├── marital_encoder.pkl
+│   └── loanpurpose_encoder.pkl
 │
 ├── Dataset/
-│ └── Loan_default.csv # Original dataset
+│   └── Loan_default.csv           # Original dataset
 │
 ├── Notebooks/
-│ └── Loan Default Prediction.ipynb
+│   └── Loan Default Prediction.ipynb
 │
 ├── requirements.txt
 └── README.md
-{content: }
 
 
 
